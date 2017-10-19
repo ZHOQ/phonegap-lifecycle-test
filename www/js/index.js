@@ -36,7 +36,7 @@ $(document).ready(function() {
     console.log("ready!");
     $("#key").text("pen: " + val);
     $("#key1").text( "pen: " + val1);
-    $("#person").text("name: " + personJSON.firstName);
+    $("#person").text("name: " + personJSON.firstName + " "+ personJSON.lastName);
 
 
 
